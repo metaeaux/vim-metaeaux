@@ -50,7 +50,7 @@ hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 hi Type          guifg=#9A97FF guibg=NONE    gui=NONE
-hi StorageClass  guifg=#7DFFB8 guibg=NONE    gui=NONE
+hi StorageClass  guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Structure  guifg=#B9FF87 guibg=NONE    gui=NONE
 hi Typedef  guifg=#9A97FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------

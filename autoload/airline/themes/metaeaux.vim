@@ -1,12 +1,12 @@
 let g:airline#themes#metaeaux#palette = {}
 
 let g:airline#themes#metaeaux#palette.accents = {
-      \ 'red': [ '#ffffff' , '' , 231 , '' , '' ],
+      \ 'red': [ '#BAFFFF' , '' , 231 , '' , '' ],
       \ }
 
 let s:N1 = [ '#3E478E' , '#FF9DFB' , 231  , 36 ]
-let s:N2 = [ '#ffffff' , '#505CB4' , 231 , 29 ]
-let s:N3 = [ '#ffffff' , '#3E478E' , 231  , 23 ]
+let s:N2 = [ '#BAFFFF' , '#505CB4' , 231 , 29 ]
+let s:N3 = [ '#BAFFFF' , '#3E478E' , 231  , 23 ]
 let g:airline#themes#metaeaux#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#metaeaux#palette.normal_modified = {
       \ 'airline_c': [ '#3E478E' , '#FFC5FC' , 231     , 52      , ''     ] ,
@@ -14,8 +14,8 @@ let g:airline#themes#metaeaux#palette.normal_modified = {
 
 
 let s:I1 = [ '#3E478E' , '#7DFFB8' , 231 , 106 ]
-let s:I2 = [ '#ffffff' , '#505CB4' , 231 , 29  ]
-let s:I3 = [ '#ffffff' , '#3E478E' , 231 , 23  ]
+let s:I2 = [ '#BAFFFF' , '#505CB4' , 231 , 29  ]
+let s:I3 = [ '#BAFFFF' , '#3E478E' , 231 , 23  ]
 let g:airline#themes#metaeaux#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#metaeaux#palette.insert_modified = {
       \ 'airline_c': [ '#3E478E' , '#A7FFCE' , 255     , 52      , ''     ] ,
@@ -30,8 +30,8 @@ let g:airline#themes#metaeaux#palette.replace.airline_a = [ s:I2[0]   , '#920000
 let g:airline#themes#metaeaux#palette.replace_modified = g:airline#themes#metaeaux#palette.insert_modified
 
 let s:V1 = [ '#3E478E' , '#62E6FF' , 222 , 208 ]
-let s:V2 = [ '#ffffff' , '#505CB4' , 231 , 29 ]
-let s:V3 = [ '#ffffff' , '#3E478E' , 231  , 23  ]
+let s:V2 = [ '#BAFFFF' , '#505CB4' , 231 , 29 ]
+let s:V3 = [ '#BAFFFF' , '#3E478E' , 231  , 23  ]
 let g:airline#themes#metaeaux#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#metaeaux#palette.visual_modified = {
       \ 'airline_c': [ '#3E478E' , '#A5F0FF' , 231     , 52      , ''     ] ,
@@ -47,7 +47,7 @@ let g:airline#themes#metaeaux#palette.tabline = {
       \ 'airline_tab':  ['#2aa198', '#505CB4',  231, 29, ''],
       \ 'airline_tabsel':  ['#3E478E', '#FF9DFB',  231, 36, ''],
       \ 'airline_tabtype':  ['#3E478E', '#FF9DFB',  231, 36, ''],
-      \ 'airline_tabfill':  ['#ffffff', '#3E478E',  231, 23, ''],
+      \ 'airline_tabfill':  ['#BAFFFF', '#3E478E',  231, 23, ''],
       \ 'airline_tabmod':  ['#3E478E', '#FFC5FC',  231, 88, ''],
       \ }
 
@@ -82,7 +82,7 @@ if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 let g:airline#themes#metaeaux#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#ffffff' , '#3E478E' , 231 , 23 , ''     ] ,
-      \ [ '#ffffff' , '#FF9DFB' , 231 , 36 , ''     ] ,
-      \ [ '#ffffff' , '#973d45' , 231 , 95 , ''     ] )
+      \ [ '#BAFFFF' , '#3E478E' , 231 , 23 , ''     ] ,
+      \ [ '#BAFFFF' , '#FF9DFB' , 231 , 36 , ''     ] ,
+      \ [ '#BAFFFF' , '#973d45' , 231 , 95 , ''     ] )
 
