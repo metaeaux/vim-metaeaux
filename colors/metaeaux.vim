@@ -39,7 +39,7 @@ hi Statement     guifg=#62E6FF guibg=NONE    gui=NONE
 hi Conditional   guifg=#e4d00a guibg=NONE    gui=NONE
 " hi Repeat       guifg= guibg=NONE    gui=NONE
 " hi Label       guifg= guibg=NONE    gui=NONE
-hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
+hi Operator      guifg=#7DFFB8 guibg=NONE    gui=NONE
 " hi Keyword       guifg= guibg=NONE    gui=NONE
 hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
