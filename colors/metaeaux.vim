@@ -9,17 +9,18 @@ let g:colors_name = "metaeaux"
 " Gvim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal
-hi Normal        guifg=#BAFFFF guibg=#263238 gui=NONE
+hi Normal        guifg=#BAFFFF guibg=#1F2345 gui=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
 hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Comment       guifg=#80B2E9 guibg=NONE    gui=NONE
+" hi Comment       guifg=#80B2E9 guibg=NONE    gui=NONE
+hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
-hi Character     guifg=#ff8da1 guibg=NONE    gui=NONE
+hi Character     guifg=#7484FF guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Boolean       guifg=#fff159 guibg=NONE    gui=NONE
 hi Float         guifg=#fff159 guibg=NONE    gui=NONE
@@ -48,15 +49,12 @@ hi PreProc       guifg=#bada55 guibg=NONE    gui=NONE
 " hi Macro        guifg=#bada55 guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-"hi Type          guifg=#26ffa1 guibg=NONE    gui=NONE
-"hi Type          guifg=#ff3800 guibg=NONE    gui=NONE
-hi Type          guifg=#ff4040 guibg=NONE    gui=NONE
-"hi StorageClass  guifg=#f4bbff guibg=NONE    gui=NONE
-hi StorageClass  guifg=#da8a67 guibg=NONE    gui=NONE
-" hi Structure  guifg= guibg=NONE    gui=NONE
-" hi Typedef  guifg= guibg=NONE    gui=NONE
+hi Type          guifg=#9A97FF guibg=NONE    gui=NONE
+hi StorageClass  guifg=#BAFFFF guibg=NONE    gui=NONE
+hi Structure  guifg=#B9FF87 guibg=NONE    gui=NONE
+hi Typedef  guifg=#9A97FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Special       guifg=#ff8da1 guibg=NONE    gui=NONE
+hi Special       guifg=#FBAEFF guibg=NONE    gui=NONE
 " hi SpecialChar       guifg=#ff8da1 guibg=NONE    gui=NONE
 " hi Tag           guifg= guibg=NONE    gui=NONE
 " hi Delimiter           guifg= guibg=NONE    gui=NONE
@@ -67,7 +65,7 @@ hi Underlined    guifg=#80a0ff guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Ignore        guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Error         guifg=#870000 guibg=#ffa40b gui=NONE
+hi Error         guifg=#FF6C3F guibg=NONE gui=NONE
 " ---------------------------------------------------------------------
 hi TODO          guifg=#FFFFFF guibg=#C29C00 gui=NONE
 
