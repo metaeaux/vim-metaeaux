@@ -12,9 +12,9 @@ let g:colors_name = "metaeaux"
 hi Normal        guifg=#BAFFFF guibg=#263238 gui=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
-hi Title         guifg=#c9f0fa guibg=NONE    gui=NONE
+hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Comment       guifg=#616161 guibg=NONE    gui=NONE
+hi Comment       guifg=#80B2E9 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
@@ -33,12 +33,12 @@ hi Function      guifg=#7DFFB8 guibg=NONE    gui=NONE
 "hi Statement     guifg=#f26d99 guibg=NONE    gui=NONE
 "hi Statement     guifg=#b06bfc guibg=NONE    gui=NONE
 "hi Statement     guifg=#f88379 guibg=NONE    gui=NONE
-hi Statement     guifg=#f64a8a guibg=NONE    gui=NONE
+hi Statement     guifg=#62E6FF guibg=NONE    gui=NONE
 "hi Conditional   guifg=#c72723 guibg=NONE    gui=NONE
 hi Conditional   guifg=#e4d00a guibg=NONE    gui=NONE
 " hi Repeat       guifg= guibg=NONE    gui=NONE
 " hi Label       guifg= guibg=NONE    gui=NONE
-hi Operator      guifg=#ff8036 guibg=NONE    gui=NONE
+hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
 " hi Keyword       guifg= guibg=NONE    gui=NONE
 hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
