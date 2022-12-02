@@ -20,7 +20,7 @@ hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#B9FF87 guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
-hi Character     guifg=#7DFFB8 guibg=NONE    gui=NONE
+hi Character     guifg=#7484FF guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Boolean       guifg=#62E6FF guibg=NONE    gui=NONE
 hi Float         guifg=#FFD890 guibg=NONE    gui=NONE
@@ -49,7 +49,7 @@ hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
 " hi Macro        guifg=#bada55 guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Type          guifg=#9A97FF guibg=NONE    gui=NONE
+hi Type          guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi StorageClass  guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Structure  guifg=#B9FF87 guibg=NONE    gui=NONE
 hi Typedef  guifg=#9A97FF guibg=NONE    gui=NONE
