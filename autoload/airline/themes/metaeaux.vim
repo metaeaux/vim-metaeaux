@@ -51,7 +51,7 @@ let g:airline#themes#metaeaux#palette.tabline = {
       \ 'airline_tabmod':  ['#3E478E', '#FFC5FC',  231, 88, ''],
       \ }
 
-let s:WI = [ '#ffffff', '#FFD890', 231, 88 ]
+let s:WI = [ '#3E478E', '#FFD890', 231, 88 ]
 let g:airline#themes#metaeaux#palette.normal.airline_warning = [
      \ s:WI[0], s:WI[1], s:WI[2], s:WI[3]
      \ ]
