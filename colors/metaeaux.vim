@@ -1,84 +1,15 @@
-" Name: Luna vim colorscheme
-" Author: Pratheek
-" URL: http://github.com/Pychimp/vim-luna
-" (see this url for latest release & screenshots)
-" License: MIT (see LICENSE.rst in the root of project)
-" Created: In the middle of Earth's Rotation
-" Version: 0.0.7
-"
-"
-" TODO: {{{
-" ---------------------------------------------------------------------
-" -- Clean up !
-" -- create a terminal version
-" -- add more lang specifics
-" -- (Will think of some more sutff !)
-" }}}
-"
-" Usage and Requirements "{{{
-" ---------------------------------------------------------------------
-" REQUIREMENTS:
-" ---------------------------------------------------------------------
-" Currently,
-"
-" This colourscheme is intended for use on:
-" - gVim >= 7.3 for Linux, Mac and Windows. (Since, all colours are in hex
-"   values, hence works with gvim. Terminal vim will be supported in future)
-"
-" ---------------------------------------------------------------------
-" INSTALLATION:
-" ---------------------------------------------------------------------
-" Two options for installation: manual or pathogen
-"
-" ---------------------------------------------------------------------
-" MANUAL INSTALLATION OPTION:
-" ---------------------------------------------------------------------
-"
-" 1. Download the luna distribution (as a zip archive, available on the github page)
-" and unarchive the file.
-" 2. Move `colors/luna.vim` to your `.vim/colors` directory.
-" 3. Enjoy !
-"
-" ---------------------------------------------------------------------
-" HIGHLY RECOMMENDED PATHOGEN INSTALLATION OPTION:
-" ---------------------------------------------------------------------
-"
-" 1. Download and install Tim Pope's Pathogen from:
-" https://github.com/tpope/vim-pathogen
-"
-" 2. Next, move or clone the `vim-luna` directory so that it is
-" a subdirectory of the `.vim/bundle` directory.
-"
-" a. **clone with git:**
-"
-" $ cd ~/.vim/bundle
-" $ git clone git://github.com/Pychimp/vim-luna.git
-"
-" ---------------------------------------------------------------------
-" MODIFY VIMRC:
-" ---------------------------------------------------------------------
-"
-" After either manual or pathogen installation, put the following two lines in your
-" .vimrc:
-"
-" syntax enable
-" colorscheme luna
-" }}}
-"
-" Colorscheme initialization "{{{
-" ---------------------------------------------------------------------
 set background=dark
 highlight clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name = "luna"
+let g:colors_name = "metaeaux"
 " }}}
 "
 " Gvim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal
-hi Normal        guifg=#e5e5e5 guibg=#212121 gui=NONE
+hi Normal        guifg=#BAFFFF guibg=#263238 gui=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
 hi Title         guifg=#c9f0fa guibg=NONE    gui=NONE
@@ -87,15 +18,15 @@ hi Comment       guifg=#616161 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
-hi String        guifg=#60bdf4 guibg=NONE    gui=NONE
+hi String        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Character     guifg=#ff8da1 guibg=NONE    gui=NONE
-hi Number        guifg=#fff159 guibg=NONE    gui=NONE
+hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Boolean       guifg=#fff159 guibg=NONE    gui=NONE
 hi Float         guifg=#fff159 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 "hi Identifier    guifg=#40ffff guibg=NONE    gui=NONE
-hi Identifier    guifg=#00bcbc guibg=NONE    gui=NONE
-hi Function      guifg=#00bcbc guibg=NONE    gui=NONE
+hi Identifier    guifg=#62E6FF guibg=NONE    gui=NONE
+hi Function      guifg=#7DFFB8 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 "hi Statement     guifg=#ff8036 guibg=NONE    gui=NONE
 "hi Statement     guifg=#ee82ee guibg=NONE    gui=NONE
@@ -138,7 +69,7 @@ hi Underlined    guifg=#80a0ff guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 hi Error         guifg=#870000 guibg=#ffa40b gui=NONE
 " ---------------------------------------------------------------------
-hi TODO          guifg=#ff0087 guibg=#ffff87 gui=NONE
+hi TODO          guifg=#FFFFFF guibg=#C29C00 gui=NONE
 
 " ---------------------------------------------------------------------
 " Extended Highlighting
