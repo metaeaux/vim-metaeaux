@@ -44,7 +44,7 @@ hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
 hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
-" hi Include       guifg= guibg=NONE    gui=NONE
+hi Include       guifg=#FFD890 guibg=NONE    gui=NONE
 "hi Define        guifg=#bada55 guibg=NONE    gui=NONE
 " hi Macro        guifg=#bada55 guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
