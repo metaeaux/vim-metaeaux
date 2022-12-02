@@ -56,6 +56,11 @@ let g:airline#themes#metaeaux#palette.normal.airline_warning = [
      \ s:WI[0], s:WI[1], s:WI[2], s:WI[3]
      \ ]
 
+let s:ER = [ '#282C34', '#E06C75', s:term_black, s:term_red ]
+let g:airline#themes#metaeaux#palette.normal.airline_error = [
+   \ s:ER[0], s:ER[1], s:ER[2], s:ER[3]
+   \ ]
+
 let g:airline#themes#metaeaux#palette.normal_modified.airline_warning =
     \ g:airline#themes#metaeaux#palette.normal.airline_warning
 
