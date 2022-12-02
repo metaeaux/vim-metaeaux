@@ -20,7 +20,7 @@ hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#B9FF87 guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
-hi Character     guifg=#7484FF guibg=NONE    gui=NONE
+hi Character     guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Boolean       guifg=#62E6FF guibg=NONE    gui=NONE
 hi Float         guifg=#FFD890 guibg=NONE    gui=NONE
@@ -39,7 +39,7 @@ hi Statement     guifg=#62E6FF guibg=NONE    gui=NONE
 hi Conditional   guifg=#e4d00a guibg=NONE    gui=NONE
 " hi Repeat       guifg= guibg=NONE    gui=NONE
 " hi Label       guifg= guibg=NONE    gui=NONE
-hi Operator      guifg=#7DFFB8 guibg=NONE    gui=NONE
+hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
 " hi Keyword       guifg= guibg=NONE    gui=NONE
 hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
