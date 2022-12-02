@@ -22,8 +22,8 @@ hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Character     guifg=#7484FF guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
-hi Boolean       guifg=#fff159 guibg=NONE    gui=NONE
-hi Float         guifg=#fff159 guibg=NONE    gui=NONE
+hi Boolean       guifg=#62E6FF guibg=NONE    gui=NONE
+hi Float         guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 "hi Identifier    guifg=#40ffff guibg=NONE    gui=NONE
 hi Identifier    guifg=#62E6FF guibg=NONE    gui=NONE
