@@ -21,7 +21,7 @@ let g:airline#themes#metaeaux#palette.insert_modified = {
       \ 'airline_c': [ '#3E478E' , '#A7FFCE' , 255     , 52      , ''     ] ,
       \ }
 let g:airline#themes#metaeaux#palette.insert_paste = {
-      \ 'airline_a': [ s:I1[0]   , '#789f00' , s:I1[2] , 106     , ''     ] ,
+      \ 'airline_a': [ s:I1[0]   , '#A7FFCE' , s:I1[2] , 106     , ''     ] ,
       \ }
 
 
