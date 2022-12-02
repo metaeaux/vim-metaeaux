@@ -54,11 +54,11 @@ hi StorageClass  guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Structure  guifg=#B9FF87 guibg=NONE    gui=NONE
 hi Typedef  guifg=#9A97FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-" hi Special       guifg=#FBAEFF guibg=NONE    gui=NONE
-hi Special       guifg=#7484FF guibg=NONE    gui=NONE
-" hi SpecialChar       guifg=#ff8da1 guibg=NONE    gui=NONE
+hi Special       guifg=#FBAEFF guibg=NONE    gui=NONE
+" hi Special       guifg=#7484FF guibg=NONE    gui=NONE
+hi SpecialChar       guifg=#7484FF guibg=NONE    gui=NONE
 " hi Tag           guifg= guibg=NONE    gui=NONE
-" hi Delimiter           guifg= guibg=NONE    gui=NONE
+hi Delimiter           guifg=#7484FF guibg=NONE    gui=NONE
 " hi SpecialComment           guifg= guibg=NONE    gui=NONE
 " hi Debug           guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
