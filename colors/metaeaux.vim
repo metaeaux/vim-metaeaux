@@ -43,10 +43,11 @@ hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
 " hi Keyword       guifg= guibg=NONE    gui=NONE
 hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
+" hi PreProc       guifg=#9497FF guibg=NONE    gui=NONE
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi Include       guifg=#FFD890 guibg=NONE    gui=NONE
 hi Define        guifg=#FFD890 guibg=NONE    gui=NONE
-" hi Macro        guifg=#bada55 guibg=NONE    gui=NONE
+hi Macro        guifg=#9497FF guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 hi Type          guifg=#7DFFB8 guibg=NONE    gui=NONE
@@ -175,15 +176,14 @@ hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
 hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
-"
-" Signify (https://github.com/mhinz/vim-signify)
-"
-hi SignifySignAdd    guifg=#00ff00 guibg=#212121 gui=NONE
-hi SignifySignChange guifg=#ff5f00 guibg=#212121 gui=NONE
-hi SignifySignDelete guifg=#ff0000 guibg=#212121 gui=NONE
-"
-" ---------------------------------------------------------------------
-" }}}
+" EasyMotion
+
+hi EasyMotionTarget guifg=#FF9DFB guibg=NONE gui=NONE
+hi EasyMotionTarget2First guifg=#00ff00 guibg=NONE gui=NONE
+hi EasyMotionTarget2Second guifg=#00ff00 guibg=NONE gui=NONE
+hi EasyMotionShade guifg=#7484FF guibg=NONE gui=NONE
+hi EasyMotionMoveHL guifg=#00ff00 guibg=NONE gui=NONE
+
 "
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
 "
