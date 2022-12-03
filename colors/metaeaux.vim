@@ -62,7 +62,7 @@ hi Special           guifg=#FBAEFF guibg=NONE    gui=NONE
 " hi SpecialComment           guifg= guibg=NONE    gui=NONE
 " hi Debug           guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Underlined    guifg=#80a0ff guibg=NONE    gui=NONE
+hi Underlined    guifg=#FF9DFB guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Ignore        guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
@@ -78,9 +78,9 @@ hi Visual        guifg=#FF9DFB guibg=#505CB4 gui=NONE
 hi ErrorMsg      guifg=#3E478E guibg=#FFD890 gui=NONE
 hi IncSearch     guifg=#3E478E guibg=#FF9DFB gui=NONE
 hi Search        guifg=#3E478E guibg=#FF9DFB gui=NONE
-hi MoreMsg       guifg=#FF9DFB guibg=NONE    gui=NONE
-hi ModeMsg       guifg=#FF9DFB guibg=NONE    gui=NONE
-hi LineNr        guifg=#7484FF guibg=NONE    gui=NONE
+hi MoreMsg       guifg=#505CB4 guibg=NONE    gui=NONE
+hi ModeMsg       guifg=#505CB4 guibg=NONE    gui=NONE
+hi LineNr        guifg=#3E478E guibg=NONE    gui=NONE
 hi VertSplit     guifg=#FF9DFB guibg=#3E478E gui=NONE
 hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
 hi Folded        guifg=#BAFFFF guibg=#1F2345 gui=NONE
@@ -88,7 +88,11 @@ hi Folded        guifg=#BAFFFF guibg=#1F2345 gui=NONE
 hi DiffAdd       guifg=#3E478E guibg=#7DFFB8 gui=NONE
 hi DiffChange    guifg=#3E478E guibg=#62E6FF gui=NONE
 hi DiffDelete    guifg=#3E478E guibg=#FFD890 gui=NONE
-hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
+hi DiffText      guifg=#3E478E guibg=#FFD890 gui=NONE
+
+hi GitGutterAdd    guifg=#7DFFB8  guibg=#7DFFB8
+hi GitGutterChange guifg=#62E6FF  guibg=#62E6FF
+hi GitGutterDelete guifg=#FFD890  guibg=#FFD890
 
 hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
 hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
@@ -96,7 +100,7 @@ hi SpellRare     guifg=#ff0000 guibg=#ffff9a gui=NONE
 hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
 
 hi StatusLine    guifg=#3E478E guibg=#FF9DFB gui=NONE
-hi StatusLineNC  guifg=#ffffff guibg=#474747 gui=NONE
+hi StatusLineNC  guifg=#3E478E guibg=#FF9DFB gui=NONE
 
 hi Pmenu         guifg=#BAFFFF guibg=#3E478E gui=NONE
 hi PmenuSel      guifg=#3E478E guibg=#FF9DFB gui=NONE
@@ -104,12 +108,14 @@ hi PmenuSbar     guifg=#3E478E guibg=#3E478E gui=NONE
 hi PmenuThumb    guifg=#3E478E guibg=#3E478E gui=NONE
 
 hi MatchParen    guifg=#3E478E guibg=#FF9DFB gui=NONE
-hi CursorLine    guifg=NONE    guibg=#2e2e2e gui=NONE
-hi CursorLineNr  guifg=#87ceeb guibg=NONE    gui=NONE
+
+hi CursorLine    guifg=NONE    guibg=#252B57 gui=NONE
+hi CursorLineNr  guifg=#505CB4 guibg=NONE    gui=NONE
 hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
-hi ColorColumn   guifg=NONE    guibg=#3e3739 gui=NONE
+
+hi ColorColumn   guifg=NONE    guibg=#252B57 gui=NONE
 hi WildMenu      guifg=#BAFFFF guibg=#3E478E gui=NONE
-hi SignColumn    guifg=NONE    guibg=#212121 gui=NONE
+hi SignColumn    guifg=NONE    guibg=#252B57 gui=NONE
 " }}}
 "
 " Language Specifics: {{{
