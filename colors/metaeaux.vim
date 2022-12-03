@@ -98,18 +98,14 @@ hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
 " hi StatusLine    guifg=#ffffff guibg=#1F2345 gui=NONE
 " hi StatusLine    guifg=#ffffff guibg=#353535 gui=NONE
 " hi StatusLine    guifg=#ffffff guibg=#1f2e2e gui=NONE
-hi StatusLine    guifg=#ffffff guibg=#1F2345 gui=NONE
+hi StatusLine    guifg=#ffffff guibg=#002b2b gui=NONE
 hi StatusLineNC  guifg=#ffffff guibg=#474747 gui=NONE
-" hi Pmenu         guifg=#586e75 guibg=#fdf6e3 gui=NONE
-" hi PmenuSel      guifg=#fdf6e3 guibg=#2aa198 gui=NONE
-" hi PmenuSbar     guifg=#fdf6e3 guibg=#fdf6e3 gui=NONE
-" hi PmenuThumb    guifg=#fdf6e3 guibg=#fdf6e3 gui=NONE
-" hi Pmenu         guifg=#426464 guibg=#1F2345 gui=NONE
-" hi Pmenu         guifg=#609292 guibg=#1F2345 gui=NONE
-hi Pmenu         guifg=#7ca9a9 guibg=#1F2345 gui=NONE
-hi PmenuSel      guifg=#1F2345 guibg=#fdf6e3 gui=NONE
-hi PmenuSbar     guifg=#1F2345 guibg=#1F2345 gui=NONE
-hi PmenuThumb    guifg=#1F2345 guibg=#1F2345 gui=NONE
+
+hi Pmenu         guifg=#BAFFFF guibg=#3E478E gui=NONE
+hi PmenuSel      guifg=#3E478E guibg=#FF9DFB gui=NONE
+hi PmenuSbar     guifg=#3E478E guibg=#3E478E gui=NONE
+hi PmenuThumb    guifg=#3E478E guibg=#3E478E gui=NONE
+
 hi MatchParen    guifg=#000000 guibg=#ff4040 gui=NONE
 hi CursorLine    guifg=NONE    guibg=#2e2e2e gui=NONE
 "hi CursorLineNr  guifg=#50c878 guibg=#2e2e2e gui=NONE
@@ -118,7 +114,7 @@ hi CursorLine    guifg=NONE    guibg=#2e2e2e gui=NONE
 hi CursorLineNr  guifg=#87ceeb guibg=NONE    gui=NONE
 hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
 hi ColorColumn   guifg=NONE    guibg=#3e3739 gui=NONE
-hi WildMenu      guifg=#1F2345 guibg=#ffffff gui=NONE
+hi WildMenu      guifg=#BAFFFF guibg=#3E478E gui=NONE
 hi SignColumn    guifg=NONE    guibg=#212121 gui=NONE
 " }}}
 "
