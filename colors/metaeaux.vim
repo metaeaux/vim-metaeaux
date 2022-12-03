@@ -102,10 +102,10 @@ hi GitGutterChange guifg=#62E6FF  guibg=#62E6FF
 hi GitGutterDelete guifg=#FFD890  guibg=#FFD890
 hi GitGutterChangeDeleteLine guifg=#FFD890  guibg=#FFD890
 
-hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
-hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
-hi SpellRare     guifg=#ff0000 guibg=#ffff9a gui=NONE
-hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
+hi SpellBad      guifg=#3E478E guibg=#FFD890 gui=NONE
+hi SpellCap      guifg=#3E478E guibg=#FFD890 gui=NONE
+hi SpellRare     guifg=#3E478E guibg=#FFD890 gui=NONE
+hi SpellLocal    guifg=#3E478E guibg=#FFD890 gui=NONE
 
 hi StatusLine    guifg=#3E478E guibg=#FF9DFB gui=NONE
 hi StatusLineNC  guifg=#3E478E guibg=#FF9DFB gui=NONE
