@@ -79,10 +79,10 @@ hi IncSearch     guifg=#3E478E guibg=#62E6FF gui=NONE
 hi Search        guifg=#3E478E guibg=#62E6FF gui=NONE
 
 hi WarningMsg    guifg=#FFD890 guibg=NONE gui=NONE
-hi ErrorMsg      guifg=#FF6C3F guibg=NONE gui=NONE
+hi ErrorMsg      guifg=#3E478E guibg=#FFD890 gui=NONE
 hi MoreMsg       guifg=#505CB4 guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505CB4 guibg=NONE    gui=NONE
-hi ErrorMsg      guifg=#505CB4 guibg=NONE    gui=NONE
+hi Question      guifg=#7DFFB8 guibg=NONE    gui=NONE
 
 hi LineNr        guifg=#3E478E guibg=NONE    gui=NONE
 hi VertSplit     guifg=#FF9DFB guibg=#3E478E gui=NONE
