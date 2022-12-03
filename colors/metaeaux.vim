@@ -179,10 +179,10 @@ hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
 " EasyMotion
 
 hi EasyMotionTarget guifg=#FF9DFB guibg=NONE gui=NONE
-hi EasyMotionTarget2First guifg=#00ff00 guibg=NONE gui=NONE
-hi EasyMotionTarget2Second guifg=#00ff00 guibg=NONE gui=NONE
+hi EasyMotionTarget2First guifg=#7DFFB8 guibg=NONE gui=NONE
+hi EasyMotionTarget2Second guifg=#62E6FF guibg=NONE gui=NONE
 hi EasyMotionShade guifg=#7484FF guibg=NONE gui=NONE
-hi EasyMotionMoveHL guifg=#00ff00 guibg=NONE gui=NONE
+hi EasyMotionMoveHL guifg=#7DFFB8 guibg=NONE gui=NONE
 
 "
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
