@@ -75,19 +75,19 @@ hi TODO          guifg=#FFFFFF guibg=#C29C00 gui=NONE
 
 hi NonText       guifg=#838383 guibg=NONE    gui=NONE
 hi Visual        guifg=#FF9DFB guibg=#505CB4 gui=NONE
-hi ErrorMsg      guifg=#870000 guibg=#ffa40b gui=NONE
-hi IncSearch     guifg=#262626 guibg=#ff9933 gui=NONE
-hi Search        guifg=#262626 guibg=#ff9933 gui=NONE
-hi MoreMsg       guifg=#616161 guibg=NONE    gui=NONE
-hi ModeMsg       guifg=#616161 guibg=NONE    gui=NONE
-hi LineNr        guifg=#838383 guibg=NONE    gui=NONE
-hi VertSplit     guifg=#212121 guibg=#474747 gui=NONE
+hi ErrorMsg      guifg=#3E478E guibg=#FFD890 gui=NONE
+hi IncSearch     guifg=#3E478E guibg=#FF9DFB gui=NONE
+hi Search        guifg=#3E478E guibg=#FF9DFB gui=NONE
+hi MoreMsg       guifg=#FF9DFB guibg=NONE    gui=NONE
+hi ModeMsg       guifg=#FF9DFB guibg=NONE    gui=NONE
+hi LineNr        guifg=#7484FF guibg=NONE    gui=NONE
+hi VertSplit     guifg=#FF9DFB guibg=#3E478E gui=NONE
 hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
 hi Folded        guifg=#BAFFFF guibg=#1F2345 gui=NONE
 
-hi DiffAdd       guifg=#ffffff guibg=#006600 gui=NONE
-hi DiffChange    guifg=#ffffff guibg=#007878 gui=NONE
-hi DiffDelete    guifg=#ff0101 guibg=#9a0000 gui=NONE
+hi DiffAdd       guifg=#3E478E guibg=#7DFFB8 gui=NONE
+hi DiffChange    guifg=#3E478E guibg=#62E6FF gui=NONE
+hi DiffDelete    guifg=#3E478E guibg=#FFD890 gui=NONE
 hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
 
 hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
