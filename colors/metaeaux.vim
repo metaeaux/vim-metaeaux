@@ -75,15 +75,19 @@ hi TODO          guifg=#FFFFFF guibg=#C29C00 gui=NONE
 
 hi NonText       guifg=#838383 guibg=NONE    gui=NONE
 hi Visual        guifg=#FF9DFB guibg=#505CB4 gui=NONE
-hi ErrorMsg      guifg=#3E478E guibg=#FFD890 gui=NONE
-hi IncSearch     guifg=#3E478E guibg=#FF9DFB gui=NONE
-hi Search        guifg=#3E478E guibg=#FF9DFB gui=NONE
+hi IncSearch     guifg=#3E478E guibg=#62E6FF gui=NONE
+hi Search        guifg=#3E478E guibg=#62E6FF gui=NONE
+
+hi WarningMsg    guifg=#FFD890 guibg=NONE gui=NONE
+hi ErrorMsg      guifg=#FF6C3F guibg=NONE gui=NONE
 hi MoreMsg       guifg=#505CB4 guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#505CB4 guibg=NONE    gui=NONE
+hi ErrorMsg      guifg=#505CB4 guibg=NONE    gui=NONE
+
 hi LineNr        guifg=#3E478E guibg=NONE    gui=NONE
 hi VertSplit     guifg=#FF9DFB guibg=#3E478E gui=NONE
 hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
-hi Folded        guifg=#BAFFFF guibg=#1F2345 gui=NONE
+hi Folded        guifg=#FF9DFB guibg=#1F2345 gui=NONE
 
 hi DiffAdd       guifg=#3E478E guibg=#7DFFB8 gui=NONE
 hi DiffChange    guifg=#3E478E guibg=#62E6FF gui=NONE
@@ -93,6 +97,7 @@ hi DiffText      guifg=#3E478E guibg=#FFD890 gui=NONE
 hi GitGutterAdd    guifg=#7DFFB8  guibg=#7DFFB8
 hi GitGutterChange guifg=#62E6FF  guibg=#62E6FF
 hi GitGutterDelete guifg=#FFD890  guibg=#FFD890
+hi GitGutterChangeDeleteLine guifg=#FFD890  guibg=#FFD890
 
 hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
 hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
