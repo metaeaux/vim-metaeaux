@@ -77,7 +77,7 @@ let g:airline#themes#metaeaux#palette.visual_modified.airline_error = g:airline#
 let g:airline#themes#metaeaux#palette.replace.airline_error = g:airline#themes#metaeaux#palette.normal.airline_error
 let g:airline#themes#metaeaux#palette.replace_modified.airline_error = g:airline#themes#metaeaux#palette.normal.airline_error
 
-let s:T = [ '#505CB4', '#3E478E', 231, 88 ]
+let s:T = [ '#7484FF', '#3E478E', 231, 88 ]
 let g:airline#themes#metaeaux#palette.normal.airline_term =[
   \ s:T[0], s:T[1], s:T[2], s:T[3]
   \ ]
