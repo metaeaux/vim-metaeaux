@@ -82,16 +82,8 @@ let g:airline#themes#metaeaux#palette.normal.airline_term =[
   \ s:T[0], s:T[1], s:T[2], s:T[3]
   \ ]
 
-let g:airline#themes#metaeaux#palette.normal.airline_term_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.normal.airline_term_inactive =  g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.visual.airline_term_inactive =  g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.normal.airline_term_inactive_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.visual.airline_term_inactive_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.normal.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
-let g:airline#themes#metaeaux#palette.visual.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
-
 let s:saved_theme = []
-
+" fix terminal colours
 let g:airline_theme_patch_func = 'AirlineThemePatch'
 function! AirlineThemePatch(palette)
     for colors in values(a:palette)
