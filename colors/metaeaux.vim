@@ -36,12 +36,12 @@ hi Function      guifg=#7DFFB8 guibg=NONE    gui=NONE
 "hi Statement     guifg=#f88379 guibg=NONE    gui=NONE
 hi Statement     guifg=#62E6FF guibg=NONE    gui=NONE
 "hi Conditional   guifg=#c72723 guibg=NONE    gui=NONE
-hi Conditional   guifg=#e4d00a guibg=NONE    gui=NONE
+hi Conditional   guifg=#FFD890 guibg=NONE    gui=NONE
 " hi Repeat       guifg= guibg=NONE    gui=NONE
 " hi Label       guifg= guibg=NONE    gui=NONE
 hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
 " hi Keyword       guifg= guibg=NONE    gui=NONE
-hi Exception     guifg=#e4d00a guibg=NONE    gui=NONE
+hi Exception     guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi PreProc       guifg=#9497FF guibg=NONE    gui=NONE
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
@@ -74,10 +74,14 @@ hi TODO          guifg=#FFFFFF guibg=#C29C00 gui=NONE
 " ---------------------------------------------------------------------
 " Extended Highlighting
 
-hi NonText       guifg=#838383 guibg=NONE    gui=NONE
+hi NonText       guifg=#505CB4 guibg=NONE    gui=NONE
 hi Visual        guifg=#FF9DFB guibg=#505CB4 gui=NONE
 hi IncSearch     guifg=#3E478E guibg=#62E6FF gui=NONE
 hi Search        guifg=#3E478E guibg=#62E6FF gui=NONE
+hi TabLine       guifg=#505CB4 guibg=NONE    gui=NONE
+hi FoldColumn    guifg=#505CB4 guibg=NONE    gui=NONE
+hi Conceal    guifg=#505CB4 guibg=NONE    gui=NONE
+hi Ignore    guifg=#505CB4 guibg=NONE    gui=NONE
 
 hi WarningMsg    guifg=#FFD890 guibg=NONE gui=NONE
 hi ErrorMsg      guifg=#3E478E guibg=#FFD890 gui=NONE
