@@ -82,8 +82,8 @@ let g:airline#themes#metaeaux#palette.normal.airline_term =[
   \ s:T[0], s:T[1], s:T[2], s:T[3]
   \ ]
 
-"let g:airline#themes#metaeaux#palette.normal.airline_term_bold = let g:airline#themes#metaeaux#palette.normal.airline_term
-"let g:airline#themes#metaeaux#palette.normal.airline_term_error = let g:airline#themes#metaeaux#palette.normal.airline_error
+let g:airline#themes#metaeaux#palette.normal.airline_term_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
+let g:airline#themes#metaeaux#palette.normal.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
 
 if !get(g:, 'loaded_ctrlp', 0)
   finish
