@@ -78,12 +78,12 @@ let g:airline#themes#metaeaux#palette.replace.airline_error = g:airline#themes#m
 let g:airline#themes#metaeaux#palette.replace_modified.airline_error = g:airline#themes#metaeaux#palette.normal.airline_error
 
 let s:T = [ '#505CB4', '#3E478E', 231, 88 ]
-let g:airline#themes#metaeaux#palette.normal.airline_term =[
+let g:airline#themes#metaeaux#palette.airline_term =[
   \ s:T[0], s:T[1], s:T[2], s:T[3]
   \ ]
 
-let g:airline#themes#metaeaux#palette.normal.airline_term_bold = let g:airline#themes#metaeaux#palette.normal.airline_term
-let g:airline#themes#metaeaux#palette.normal.airline_term_error = let g:airline#themes#metaeaux#palette.normal.airline_error
+"let g:airline#themes#metaeaux#palette.normal.airline_term_bold = let g:airline#themes#metaeaux#palette.normal.airline_term
+"let g:airline#themes#metaeaux#palette.normal.airline_term_error = let g:airline#themes#metaeaux#palette.normal.airline_error
 
 if !get(g:, 'loaded_ctrlp', 0)
   finish
