@@ -83,6 +83,8 @@ let g:airline#themes#metaeaux#palette.normal.airline_term =[
   \ ]
 
 let g:airline#themes#metaeaux#palette.normal.airline_term_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
+let g:airline#themes#metaeaux#palette.normal.airline_term_inactive =  g:airline#themes#metaeaux#palette.normal.airline_term
+let g:airline#themes#metaeaux#palette.normal.airline_term_inactive_bold =  g:airline#themes#metaeaux#palette.normal.airline_term
 let g:airline#themes#metaeaux#palette.normal.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
 
 if !get(g:, 'loaded_ctrlp', 0)
