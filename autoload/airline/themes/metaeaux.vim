@@ -90,6 +90,20 @@ let g:airline#themes#metaeaux#palette.visual.airline_term_inactive_bold =  g:air
 let g:airline#themes#metaeaux#palette.normal.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
 let g:airline#themes#metaeaux#palette.visual.airline_term_error = g:airline#themes#metaeaux#palette.normal.airline_error
 
+let s:saved_theme = []
+
+let g:airline_theme_patch_func = 'AirlineThemePatch'
+function! AirlineThemePatch(palette)
+    for colors in values(a:palette)
+        if has_key(colors, 'airline_c') && len(s:saved_theme) ==# 0
+            let s:saved_theme = colors.airline_c
+        endif
+        if has_key(colors, 'airline_term')
+            let colors.airline_term = s:saved_theme
+        endif
+    endfor
+endfunction
+
 if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
