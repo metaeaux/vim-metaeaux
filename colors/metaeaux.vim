@@ -19,7 +19,7 @@ hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
-hi Constant      guifg=#B9FF87 guibg=NONE    gui=NONE
+hi Constant      guifg=#A7FFCE guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Character     guifg=#7484FF guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
