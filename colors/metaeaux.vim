@@ -46,7 +46,7 @@ hi Exception     guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi PreProc       guifg=#9497FF guibg=NONE    gui=NONE
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
-hi Include       guifg=#FFD890 guibg=NONE    gui=NONE
+hi Include       guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi Define        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Macro        guifg=#9497FF guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
@@ -139,9 +139,6 @@ hi SignColumn    guifg=NONE    guibg=#252B57 gui=NONE
 " on more awesome, and fun to work with !)
 " ---------------------------------------------------------------------
 " Python Specifics
-"hi pythonDot        guifg=#00ffa5 guibg=NONE gui=NONE
-"hi pythonDot        guifg=#ffff31 guibg=NONE gui=NONE
-"hi pythonDot        guifg=#ff0800 guibg=NONE gui=NONE
 hi pythonDot                 guifg=#d70a53 guibg=NONE gui=NONE
 hi pythonParameters          guifg=#bada55 guibg=NONE gui=NONE
 hi pythonClassParameters     guifg=#bada55 guibg=NONE gui=NONE
@@ -150,14 +147,15 @@ hi pythonClass               guifg=#00bcbc guibg=NONE gui=NONE
 " ---------------------------------------------------------------------
 "  Ruby Specifics
 hi rubyInterpolation      guifg=#ff4040 guibg=NONE gui=NONE
-"hi rubyMethodBlock        guifg=#ff8da1 guibg=NONE gui=NONE
-"hi rubyMethodBlock        guifg=#8ddaff guibg=NONE gui=NONE
 hi rubyMethodBlock        guifg=#ffb28d guibg=NONE gui=NONE
 hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
 "
+" ---------------------------------------------------------------------
+"  C
+hi cppModule      guifg=#FFD890 guibg=NONE gui=NONE
 " ---------------------------------------------------------------------
 " }}}
 "
