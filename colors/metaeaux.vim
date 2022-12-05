@@ -46,8 +46,8 @@ hi Exception     guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi PreProc       guifg=#9497FF guibg=NONE    gui=NONE
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
-hi Include       guifg=#7484FF guibg=NONE    gui=NONE
-hi Define        guifg=#7484FF guibg=NONE    gui=NONE
+hi Include       guifg=#9497FF guibg=NONE    gui=NONE
+hi Define        guifg=#9497FF guibg=NONE    gui=NONE
 hi Macro        guifg=#9497FF guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
