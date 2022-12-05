@@ -19,7 +19,7 @@ hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
-hi Constant      guifg=#A7FFCE guibg=NONE    gui=NONE
+hi Constant      guifg=#BAFFFF guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Character     guifg=#7484FF guibg=NONE    gui=NONE
 hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
@@ -56,7 +56,7 @@ hi StorageClass  guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Structure  guifg=#B9FF87 guibg=NONE    gui=NONE
 hi Typedef  guifg=#9A97FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Special           guifg=#FBAEFF guibg=NONE    gui=NONE
+hi Special           guifg=#9A97FF guibg=NONE    gui=NONE
 " hi Special         guifg=#7484FF guibg=NONE    gui=NONE
 " hi SpecialChar       guifg=#FBAEFF guibg=NONE    gui=NONE
 " hi Tag               guifg=#FBAEFF guibg=NONE    gui=NONE
