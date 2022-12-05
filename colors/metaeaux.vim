@@ -9,8 +9,8 @@ let g:colors_name = "metaeaux"
 " Gvim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal
-hi Normal        guifg=#BAFFFF guibg=#1F2345 gui=NONE
-" hi Normal        guifg=#BAFFFF guibg=NONE gui=NONE
+" hi Normal        guifg=#BAFFFF guibg=#1F2345 gui=NONE
+hi Normal        guifg=#BAFFFF guibg=NONE gui=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
 hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
