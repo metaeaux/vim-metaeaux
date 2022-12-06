@@ -26,7 +26,6 @@ let g:airline#themes#metaeaux#palette.insert_paste = {
 
 
 let g:airline#themes#metaeaux#palette.replace = copy(g:airline#themes#metaeaux#palette.insert)
-" let g:airline#themes#metaeaux#palette.replace.airline_a = [ s:I2[0]   , '#FFBE46' , s:I2[2] , 88     , ''     ]
 let g:airline#themes#metaeaux#palette.replace_modified = g:airline#themes#metaeaux#palette.insert_modified
 
 let s:V1 = [ '#3E478E' , '#62E6FF' , 222 , 208 ]
