@@ -18,7 +18,6 @@ hi Title         guifg=#BAFFFF guibg=NONE    gui=NONE
 " hi Comment       guifg=#80B2E9 guibg=NONE    gui=NONE
 hi Comment       guifg=#7484FF guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-" hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#BAFFFF guibg=NONE    gui=NONE
 hi String        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Character     guifg=#7484FF guibg=NONE    gui=NONE
@@ -26,29 +25,23 @@ hi Number        guifg=#FFD890 guibg=NONE    gui=NONE
 hi Boolean       guifg=#62E6FF guibg=NONE    gui=NONE
 hi Float         guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-"hi Identifier    guifg=#40ffff guibg=NONE    gui=NONE
-hi Identifier    guifg=#62E6FF guibg=NONE    gui=NONE
+" hi Identifier    guifg=#62E6FF guibg=NONE    gui=NONE
+hi Identifier    guifg=#BAFFFF guibg=NONE    gui=NONE
 hi Function      guifg=#7DFFB8 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-"hi Statement     guifg=#ff8036 guibg=NONE    gui=NONE
-"hi Statement     guifg=#ee82ee guibg=NONE    gui=NONE
-"hi Statement     guifg=#f26d99 guibg=NONE    gui=NONE
-"hi Statement     guifg=#b06bfc guibg=NONE    gui=NONE
-"hi Statement     guifg=#f88379 guibg=NONE    gui=NONE
-hi Statement     guifg=#62E6FF guibg=NONE    gui=NONE
-"hi Conditional   guifg=#c72723 guibg=NONE    gui=NONE
+hi Statement     guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi Conditional   guifg=#FFD890 guibg=NONE    gui=NONE
 " hi Repeat       guifg= guibg=NONE    gui=NONE
 " hi Label       guifg= guibg=NONE    gui=NONE
 hi Operator      guifg=#9497FF guibg=NONE    gui=NONE
-" hi Keyword       guifg= guibg=NONE    gui=NONE
+hi Keyword       guifg=#62E6FF guibg=NONE    gui=NONE
 hi Exception     guifg=#FFD890 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi PreProc       guifg=#9497FF guibg=NONE    gui=NONE
 hi PreProc       guifg=#7DFFB8 guibg=NONE    gui=NONE
 hi Include       guifg=#9497FF guibg=NONE    gui=NONE
 hi Define        guifg=#9497FF guibg=NONE    gui=NONE
-hi Macro        guifg=#9497FF guibg=NONE    gui=NONE
+hi Macro        guifg=#FF9DFB guibg=NONE    gui=NONE
 " hi PreCondit        guifg=#bada55 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 hi Type          guifg=#7DFFB8 guibg=NONE    gui=NONE
@@ -120,7 +113,7 @@ hi PmenuSel      guifg=#3E478E guibg=#FF9DFB gui=NONE
 hi PmenuSbar     guifg=#3E478E guibg=#3E478E gui=NONE
 hi PmenuThumb    guifg=#3E478E guibg=#3E478E gui=NONE
 
-hi MatchParen    guifg=#3E478E guibg=#FF9DFB gui=NONE
+hi MatchParen    guifg=#FF9DFB guibg=#3E478E gui=NONE
 
 hi CursorLine    guifg=NONE    guibg=#252B57 gui=NONE
 hi CursorLineNr  guifg=#505CB4 guibg=NONE    gui=NONE
@@ -128,7 +121,10 @@ hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
 
 hi ColorColumn   guifg=NONE    guibg=#252B57 gui=NONE
 hi WildMenu      guifg=#BAFFFF guibg=#3E478E gui=NONE
-hi SignColumn    guifg=NONE    guibg=#252B57 gui=NONE
+hi SignColumn    guifg=NONE    guibg=NONE gui=NONE
+
+hi FzfLuaBorder  guifg=#7484FF guibg=NONE gui=NONE
+
 " }}}
 "
 " Language Specifics: {{{
@@ -189,3 +185,4 @@ hi EasyMotionMoveHL guifg=#7DFFB8 guibg=NONE gui=NONE
 "
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
 "
+
