@@ -95,10 +95,10 @@ hi DiffChange    guifg=#3E478E guibg=#62E6FF gui=NONE
 hi DiffDelete    guifg=#3E478E guibg=#FFD890 gui=NONE
 hi DiffText      guifg=#3E478E guibg=#FFD890 gui=NONE
 
-hi GitGutterAdd    guifg=#7DFFB8  guibg=#7DFFB8
-hi GitGutterChange guifg=#62E6FF  guibg=#62E6FF
-hi GitGutterDelete guifg=#FFD890  guibg=#FFD890
-hi GitGutterChangeDeleteLine guifg=#FFD890  guibg=#FFD890
+hi GitGutterAdd    guifg=#7DFFB8 guibg=NONE "  guibg=#7DFFB8
+hi GitGutterChange guifg=#62E6FF guibg=NONE " guibg=#62E6FF
+hi GitGutterDelete guifg=#FFD890 guibg=NONE " guibg=#FFD890
+hi GitGutterChangeDeleteLine guifg=#FFD890 guibg=NONE " guibg=#FFD890
 
 hi SpellBad      guifg=#3E478E guibg=#FFD890 gui=NONE
 hi SpellCap      guifg=#3E478E guibg=#FFD890 gui=NONE
