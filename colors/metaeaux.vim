@@ -86,7 +86,7 @@ hi DiagnosticError   guifg=#FF6C3F guibg=NONE gui=NONE
 hi DiagnosticWarn    guifg=#FFD890 guibg=NONE gui=NONE
 
 hi LineNr        guifg=#3E478E guibg=NONE    gui=NONE
-hi VertSplit     guifg=#FF9DFB guibg=#3E478E gui=NONE
+hi VertSplit     guifg=#3E478E guibg=NONE gui=NONE
 hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
 hi Folded        guifg=#FF9DFB guibg=#1F2345 gui=NONE
 
